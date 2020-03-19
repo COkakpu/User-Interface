@@ -81,6 +81,10 @@ nav ul a {
 	margin: 45px 50px 0px 65px;
 	text-decoration: none;	
 }
+nav ul a:hover{
+	text-decoration: line-through;
+
+}
 nav img{
 	padding-top: 0px;
 	width: 220px;
@@ -88,24 +92,84 @@ nav img{
 	float: right;
 }
 .midPage{
-	background-color: aqua;
 	display: inline-block;
 	width:100%;
+	padding-bottom: 70px;
+	border-bottom: 2px black solid;
 }
 .midPage p{
 	display: inline-block;
-	font-size: 70px;
+	font-size: 100px;
 	text-align: center;
 	box-sizing: border-box;
-	padding: 90px 0px 0px 300px;	
+	padding: 50px 0px 0px 200px;
+	font-family: cursive;	
 }
 .midPage img{
 	height: 470px;
 	padding-right: 20px;
 	float: right;
 }
+.midPage a{
+	display: block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin: 20px 20px 20px 125px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	width: 200px;
+	padding: 3px 0px;
+}
+.midPage a:hover{
+	background-color: rgb(108, 181, 206);
+	color: rgb(243, 242, 242);
+	border: 1px rgb(153, 150, 150) solid;
+} 
 .mainContent{
-	clear: both;
+	width: 100%;
+	height: 700px;
+	box-sizing: border-box;
+	font-size: 20px;
+	padding-top: 50px;
+	border-bottom: 2px black solid;
 	
 }
-this is a huge change
+.box1{
+	width: 500px;
+	display: inline-block;
+	margin-left: 100px;	
+}
+.box2{
+	width: 560px;
+	display: inline-block;
+	margin-left: 90px;
+	padding-left: 40px;
+}
+.middle-img{
+	display: inline-block;
+	margin: 50px 0px 40px 80px;
+	width: 1200px;
+}
+.box3{
+	width: 350px;
+	display: inline-block;
+	margin-left: 100px;
+}
+.box4{
+	width: 350px;
+	display:inline-block;
+	margin-left: 40px;
+}
+.box5{
+	width: 350px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+footer{
+	margin: 20px 20px 20px 100px;
+}
+footer p{
+	text-align: center;
+}
